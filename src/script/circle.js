@@ -69,16 +69,16 @@ function move(){
     changeDirection();
 
     if (cLeft){
-        cX -= 30;
+        cX -= 28;
     }
     if (cTop){
-        cY -= 30;
+        cY -= 28;
     }
     if (cRight){
-        cX += 30;
+        cX += 28;
     }
     if (cBottom){
-        cY += 30;
+        cY += 28;
     }
     circle.style.transform = 'translateX('+cX+'px)';
     circle.style.transform += 'translateY('+cY+'px)';
